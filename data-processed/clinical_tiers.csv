@@ -1,0 +1,5 @@
+"horizon","clinical","clinical + NfL","clinical + NfL + RNA","clinical + RNA","delta_RNA_over_clinical","delta_NfL_over_clinical","delta_both_over_clinical","delta_RNA_over_clinicalNfL"
+12,0.7709,0.777,0.7779,0.7706,-3e-04,0.0061,0.0069,8e-04
+24,0.7156,0.7123,0.7649,0.766,0.0504,-0.0034,0.0492,0.0526
+36,0.7904,0.8036,0.8563,0.84,0.0496,0.0132,0.0659,0.0527
+54,0.8232,0.829,0.929,0.9191,0.0959,0.0058,0.1058,0.1

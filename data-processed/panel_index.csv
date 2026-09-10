@@ -1,0 +1,22 @@
+"figure","panel","section","why","image","data","width","height","kb"
+"Figure 1","B","The compartment","GLAST+ particles are 0.18% of the circulating pool. The compartment is rare, which is the cost of the cellular prior.","Figure 1_B.png","Figure 1_B.csv",2400,2348,893
+"Figure 1","G","The compartment","Protein-coding and long non-coding RNA dominate, with a low-abundance but diverse small-RNA fraction. This is sorted cargo, not degradation.","Figure 1_G.png","Figure 1_G.csv",2400,772,348
+"Figure 2","A","Discovery","The survival-associated axis is the smallest factor at 0.18% of variance. Ranking by variance would discard it.","Figure 2_A.png","Figure 2_A.csv",2400,1402,228
+"Figure 2","B","Discovery","The two independently measured RNA layers agree across participants (r = 0.738). That agreement is what makes so small an axis usable.","Figure 2_B.png","Figure 2_B.csv",2280,2280,421
+"Figure 2","E","Discovery","The three selection criteria agree poorly. No single ranking recovers the candidate set.","Figure 2_E.png","Figure 2_E.csv",2400,1241,283
+"Figure 2","H","Pairing","The 42 highest-confidence miRNA-mRNA links, scored on seed and database evidence.","Figure 2_H.png","Figure 2_H.csv",2400,2276,1326
+"Figure 2","I","Pairing","Evidence composition across the 304-pair cross-product, and the four directional states.","Figure 2_I.png","Figure 2_I.csv",2400,2253,793
+"Figure 3","A","Plasma transfer","All 19 candidates are detectable in both compartments. The cellular prior concentrates disease signal roughly sevenfold.","Figure 3_A.png","Figure 3_A.csv",2400,1325,472
+"Figure 3","C","Plasma transfer","The composite ranking that selects the five. Requiring cross-compartment agreement is what excludes miR-1-3p.","Figure 3_C.png","Figure 3_C.csv",2400,1664,375
+"Figure 3","E","Plasma transfer","Survival separation of the five-miRNA score in 248 participants of an independent plasma cohort.","Figure 3_E.png","Figure 3_E.csv",2400,1976,436
+"Figure 3","I","Plasma transfer","Held-out hazard ratios across 200 stratified splits.","Figure 3_I.png","Figure 3_I.csv",2400,1299,285
+"Figure 3","K","Plasma transfer","The clinical result: the score's contribution grows with prediction horizon while NfL's shrinks and then reverses.","Figure 3_K.png","Figure 3_K.csv",1773,1538,226
+"Figure 4","C","Tissue","Two-axis selection of the five-gene core. Single-axis selection fails in both directions.","Figure 4_C.png","Figure 4_C.csv",1664,2112,409
+"Figure 4","E","Tissue","All five genes are expressed across cortical lineages. The program is not astrocyte-exclusive.","Figure 4_E.png","Figure 4_E.csv",2400,1758,1097
+"Figure 4","G","Tissue","The aggregate cargo score against 25 lineage-gated state programs at donor level.","Figure 4_G.png","Figure 4_G.csv",2400,1200,590
+"Figure 5","B","Convergence","Four pathway territories: interferon and antigen presentation, astrocyte reactivity, oxidative stress, and myelination loss.","Figure 5_B.png","Figure 5_B.csv",2400,2234,1862
+"Figure 5","C","Convergence","Both RNA arms contribute to all eleven modules. Ten rise in ALS; myelination falls.","Figure 5_C.png","Figure 5_C.csv",2400,1329,377
+"Figure 5","D","Convergence","Lineage contribution per module. Astrocyte-dominant overall, but vascular and oligodendroglial minorities carry real weight.","Figure 5_D.png","Figure 5_D.csv",1600,1440,344
+"Extended Data 6","H","Reviewer questions","Same-direction pair states do not separate survival (co-active chi2 = 0.24, P = 0.62; co-silenced chi2 = 0.16, P = 0.69), whereas both inverse-direction states do (chi2 = 6.83, P = 0.009 and chi2 = 6.26, P = 0.012). That asymmetry is the internal control for the pairing claim.","Extended Data 6_H.png","Extended Data 6_H.csv",984,1594,147
+"Extended Data 8","A","Reviewer questions","Discrimination across seven classifier families and four horizons. The ordering does not depend on model choice.","Extended Data 8_A.png","Extended Data 8_A.csv",2400,457,274
+"Extended Data 10","A","Reviewer questions","Gate validation: identity programs localise to their parent lineage, shared responses do not.","Extended Data 10_A.png","",2400,1976,710

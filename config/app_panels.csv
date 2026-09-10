@@ -1,0 +1,22 @@
+figure,panel,section,why
+Figure 1,B,The compartment,"GLAST+ particles are 0.18% of the circulating pool. The compartment is rare, which is the cost of the cellular prior."
+Figure 1,G,The compartment,"Protein-coding and long non-coding RNA dominate, with a low-abundance but diverse small-RNA fraction. This is sorted cargo, not degradation."
+Figure 2,A,Discovery,The survival-associated axis is the smallest factor at 0.18% of variance. Ranking by variance would discard it.
+Figure 2,B,Discovery,The two independently measured RNA layers agree across participants (r = 0.738). That agreement is what makes so small an axis usable.
+Figure 2,E,Discovery,The three selection criteria agree poorly. No single ranking recovers the candidate set.
+Figure 2,H,Pairing,"The 42 highest-confidence miRNA-mRNA links, scored on seed and database evidence."
+Figure 2,I,Pairing,"Evidence composition across the 304-pair cross-product, and the four directional states."
+Figure 3,A,Plasma transfer,All 19 candidates are detectable in both compartments. The cellular prior concentrates disease signal roughly sevenfold.
+Figure 3,C,Plasma transfer,The composite ranking that selects the five. Requiring cross-compartment agreement is what excludes miR-1-3p.
+Figure 3,E,Plasma transfer,Survival separation of the five-miRNA score in 248 participants of an independent plasma cohort.
+Figure 3,I,Plasma transfer,Held-out hazard ratios across 200 stratified splits.
+Figure 3,K,Plasma transfer,The clinical result: the score's contribution grows with prediction horizon while NfL's shrinks and then reverses.
+Figure 4,C,Tissue,Two-axis selection of the five-gene core. Single-axis selection fails in both directions.
+Figure 4,E,Tissue,All five genes are expressed across cortical lineages. The program is not astrocyte-exclusive.
+Figure 4,G,Tissue,The aggregate cargo score against 25 lineage-gated state programs at donor level.
+Figure 5,B,Convergence,"Four pathway territories: interferon and antigen presentation, astrocyte reactivity, oxidative stress, and myelination loss."
+Figure 5,C,Convergence,Both RNA arms contribute to all eleven modules. Ten rise in ALS; myelination falls.
+Figure 5,D,Convergence,"Lineage contribution per module. Astrocyte-dominant overall, but vascular and oligodendroglial minorities carry real weight."
+Extended Data 6,H,Reviewer questions,"Same-direction pair states do not separate survival (co-active chi2 = 0.24, P = 0.62; co-silenced chi2 = 0.16, P = 0.69), whereas both inverse-direction states do (chi2 = 6.83, P = 0.009 and chi2 = 6.26, P = 0.012). That asymmetry is the internal control for the pairing claim."
+Extended Data 8,A,Reviewer questions,Discrimination across seven classifier families and four horizons. The ordering does not depend on model choice.
+Extended Data 10,A,Reviewer questions,"Gate validation: identity programs localise to their parent lineage, shared responses do not."

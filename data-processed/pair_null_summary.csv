@@ -1,0 +1,2 @@
+"n_participants","observed_r","observed_p","n_permutations","null_mean_r","null_sd","null_abs_p95","null_abs_max","empirical_p"
+45,0.738385458873662,7.07206628379003e-09,10000,-0.00101122632363965,0.149329655233652,0.291677851311521,0.601997723139023,0

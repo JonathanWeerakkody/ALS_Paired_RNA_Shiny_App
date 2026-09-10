@@ -1,0 +1,12 @@
+stage_or_subcategory,denominator,n,percent,definition
+MOFA top-30 node connectivity,30,22,73.333333,22/30 nodes of each RNA type have >=1 molecular partner
+19 x 16 candidate-pair cross-product,304,304,100.0,candidate pairs across pooled EV RNA profiles; not single-vesicle co-packaging
+Expected opposing survival direction,304,238,78.28947368421052,miRNA and mRNA survival correlations have opposite signs
+Both feature P values <0.05,304,16,5.2631578947368425,subset of expected-direction pairs
+miRNA-only P <0.05,304,40,13.157894736842104,subset of expected-direction pairs
+mRNA-only P <0.05,304,52,17.105263157894736,subset of expected-direction pairs
+Neither feature P <0.05,304,130,42.76315789473684,subset of expected-direction pairs
+Seed or local database support,304,119,39.14473684210526,canonical 8mer/7mer-m8/7mer-A1 seed site or local scored database row
+Seed plus local database,304,40,13.157894736842104,database name is not recoverable from the local table
+Seed only,304,71,23.355263157894736,canonical 8mer/7mer-m8/7mer-A1 seed site
+Local database only,304,8,2.6315789473684212,database name is not recoverable from the local table

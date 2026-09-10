@@ -1,0 +1,50 @@
+# Frozen analysis settings for the published figures.
+# The deployed app reads these and does not permit them to be changed.
+version: "1.0.0-paper"
+analysis_date: "2026-08"
+seed: 20260309
+
+discovery:
+  n_als: 45
+  n_control: 15
+  mofa_views: [miRNA, mRNA, survival]
+  mofa_n_mirna: 187
+  mofa_n_mrna: 374
+  mofa_n_factors: 12
+  factor1_variance_pct_omic_views: 0.18
+  loading_prefilter_top_n: 50
+  candidate_mirna: 19
+  candidate_mrna: 16
+  pair_cross_product: 304
+  pairs_with_prior_support: 119
+
+plasma:
+  cohort_n_als: 248
+  cohort_n_nfl_complete: 243
+  detection_rule: "raw count > 5 in any ALS sample"
+  normalisation: "edgeR TMM log2CPM, no ComBat in primary models"
+  splits: 200
+  train_fraction: 0.70
+  horizons_months: [12, 24, 36, 54]
+  signature:
+    - hsa-miR-31-5p
+    - hsa-miR-4492
+    - hsa-miR-93-3p
+    - hsa-miR-421
+    - hsa-miR-324-5p
+  selection_rule: "composite of scaled bootstrap effect in each compartment x cross-compartment direction concordance"
+
+tissue:
+  bulk_profiles: 586
+  bulk_donors: 308
+  snrna_nuclei_analysed: 527261
+  snrna_donors_analysed: 69
+  snrna_nuclei_published: 625973
+  snrna_donors_published: 73
+  state_programs: 25
+  inferential_unit: donor
+  core_mrna: [NPM1, MTMR3, ZBTB16, LAMP1, CBL]
+
+context_of_use: >
+  Candidate cohort-level prognostic stratification. Not diagnostic, not
+  treatment-response, not target-engagement, not individual clinical decision support.

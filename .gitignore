@@ -1,0 +1,9 @@
+.DS_Store
+*~
+~$*
+*.inspect.ndjson
+.Rhistory
+.RData
+.Ruserdata
+rsconnect/
+deploy_bundle/

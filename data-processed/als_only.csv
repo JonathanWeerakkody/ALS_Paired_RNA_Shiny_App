@@ -1,0 +1,9 @@
+"state_label","display_lineage","cargo_label","group_subset","rho","pval","padj","n_donors"
+"Reactive","Astrocyte","Aggregate","ALS",0.67192082111437,2.54172043799112e-05,0.0025417204379911,32
+"Complement / inflammatory","Astrocyte","Aggregate","ALS",0.678152492668622,1.999396669335e-05,0.0025417204379911,32
+"Interferon","Astrocyte","Aggregate","ALS",0.627565982404692,0.0001207771987041,0.0056362692728584,32
+"Arterial endothelial","Vascular","Aggregate","SALS",0.786764705882353,0.0001791165880921,0.0071771565170808,17
+"Arterial endothelial","Vascular","Aggregate","ALS",0.615102639296188,0.000179428912927,0.0071771565170808,32
+"Mature / myelinating","Oligodendrocyte","Aggregate","C9-ALS",-0.789285714285714,0.0004673267561781,0.0142229882315097,15
+"Reactive","Astrocyte","Aggregate","SALS",0.725490196078431,0.0009801477113721,0.0254112369614999,17
+"Complement / inflammatory","Astrocyte","Aggregate","C9-ALS",0.742857142857143,0.001509488878235,0.0320194610534704,15

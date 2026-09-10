@@ -1,0 +1,626 @@
+module,n_terms,best_fdr,neg_log10_fdr,direction,dominant_lineage,cargo_mrna,mirna_footprints,n_genes,record_type,from,to,shared_n,jaccard,edge_class,edge_type,confidence,feature,feature_group,score,support_n,support_fraction
+Astrocyte inflammatory reactivity,17.0,4.0160049636200963e-08,7.396205759092249,ALS gain,Vascular,CBL;DDX60;IRF1;LAMP1;MTMR3;NHEJ1;ZBTB16,hsa-miR-1-3p;hsa-miR-106b-5p;hsa-miR-122-5p;hsa-miR-1307-3p;hsa-miR-142-5p;hsa-miR-183-5p;hsa-miR-199a-3p;hsa-miR-342-3p;hsa-miR-4492;hsa-miR-99a-5p,1564.0,module_summary,,,,,,,,,,,,
+Complement / innate immune,7.0,3.168182290238449e-05,4.499189838014661,ALS gain,Astrocyte,IRF1;NPM1,hsa-miR-1-3p;hsa-miR-106b-5p;hsa-miR-183-5p;hsa-miR-199a-3p;hsa-miR-30e-3p;hsa-miR-324-5p;hsa-miR-421;hsa-miR-628-3p;hsa-miR-93-3p,476.0,module_summary,,,,,,,,,,,,
+Interferon / JAK-STAT,8.0,3.33679354270441e-13,12.476670663599338,ALS gain,Astrocyte,DDX60;IRF1;NPM1,hsa-miR-1-3p;hsa-miR-106b-5p;hsa-miR-122-5p;hsa-miR-1307-3p;hsa-miR-142-5p;hsa-miR-199a-3p;hsa-miR-324-5p;hsa-miR-421;hsa-miR-4492;hsa-miR-93-3p,533.0,module_summary,,,,,,,,,,,,
+Antigen presentation / MHC-II,8.0,5.1479919200819605e-11,10.288362143404514,ALS gain,Vascular,,,122.0,module_summary,,,,,,,,,,,,
+Vascular activation / adhesion,14.0,8.46515160142154e-10,9.072365259755724,ALS gain,Vascular,CBL;IRF1;STK4;ZBTB16,hsa-miR-1-3p;hsa-miR-106b-5p;hsa-miR-122-5p;hsa-miR-142-5p;hsa-miR-183-5p;hsa-miR-199a-3p;hsa-miR-31-5p;hsa-miR-324-5p;hsa-miR-326;hsa-miR-328-3p;hsa-miR-421;hsa-miR-4492;hsa-miR-93-3p;hsa-miR-99a-5p,1282.0,module_summary,,,,,,,,,,,,
+Lysosome / autophagy,2.0,0.00015062694023695183,3.822097345865125,ALS gain,Astrocyte,MTMR3,hsa-miR-106b-5p;hsa-miR-142-5p;hsa-miR-421;hsa-miR-99a-5p,159.0,module_summary,,,,,,,,,,,,
+Endosomal trafficking,2.0,0.0012679726512503,2.89689011359874,ALS gain,Oligodendrocyte,CBL,hsa-miR-106b-5p;hsa-miR-142-5p;hsa-miR-199a-3p;hsa-miR-31-5p;hsa-miR-326;hsa-miR-342-3p,320.0,module_summary,,,,,,,,,,,,
+Oligodendrocyte stress / proteostasis,3.0,7.544538114371708e-07,6.122367343101092,ALS gain,OPC,LAMP1,hsa-miR-1-3p;hsa-miR-106b-5p;hsa-miR-122-5p;hsa-miR-142-5p;hsa-miR-199a-3p;hsa-miR-30e-3p;hsa-miR-324-5p;hsa-miR-326;hsa-miR-342-3p;hsa-miR-421;hsa-miR-628-3p;hsa-miR-93-3p;hsa-miR-99a-5p,441.0,module_summary,,,,,,,,,,,,
+Myelination / axon-glia support,6.0,4.837462421776487e-08,7.31538239563267,ALS loss,Oligodendrocyte,,hsa-miR-1-3p;hsa-miR-142-5p;hsa-miR-199a-3p;hsa-miR-28-3p;hsa-miR-31-5p;hsa-miR-342-3p;hsa-miR-421;hsa-miR-4492,228.0,module_summary,,,,,,,,,,,,
+Oxidative / ER stress,11.0,0.0001269234832972859,3.896458017598796,ALS gain,Astrocyte,,hsa-miR-122-5p;hsa-miR-199a-3p;hsa-miR-31-5p,121.0,module_summary,,,,,,,,,,,,
+RNA metabolism / stress granules,1.0,0.00023261487500188553,3.633362516930528,ALS gain,Astrocyte,,hsa-miR-324-5p,42.0,module_summary,,,,,,,,,,,,
+,,,,,,,,,module_similarity_edge,Interferon / JAK-STAT,Antigen presentation / MHC-II,34.0,0.0547504025764895,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Complement / innate immune,190.0,0.1027027027027027,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Vascular activation / adhesion,Endosomal trafficking,92.0,0.0609271523178807,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Complement / innate immune,Endosomal trafficking,35.0,0.0459921156373193,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Antigen presentation / MHC-II,Endosomal trafficking,16.0,0.0375586854460093,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Complement / innate immune,Interferon / JAK-STAT,191.0,0.2334963325183374,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Interferon / JAK-STAT,142.0,0.0726342710997442,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Complement / innate immune,Lysosome / autophagy,28.0,0.0461285008237232,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Interferon / JAK-STAT,Lysosome / autophagy,28.0,0.0421686746987951,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Vascular activation / adhesion,Myelination / axon-glia support,52.0,0.0356652949245541,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Oligodendrocyte stress / proteostasis,144.0,0.0773777538957549,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Antigen presentation / MHC-II,Oligodendrocyte stress / proteostasis,26.0,0.0484171322160148,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Vascular activation / adhesion,Oligodendrocyte stress / proteostasis,73.0,0.0442424242424242,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Interferon / JAK-STAT,RNA metabolism / stress granules,39.0,0.0727611940298507,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Vascular activation / adhesion,RNA metabolism / stress granules,37.0,0.0287490287490287,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Vascular activation / adhesion,534.0,0.2309688581314879,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Interferon / JAK-STAT,Vascular activation / adhesion,122.0,0.0720614294152392,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Complement / innate immune,Vascular activation / adhesion,64.0,0.037780401416765,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Antigen presentation / MHC-II,Vascular activation / adhesion,44.0,0.0323529411764705,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Endosomal trafficking,127.0,0.0722822993739328,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Astrocyte inflammatory reactivity,Myelination / axon-glia support,63.0,0.0364372469635627,thresholded,,,,,,,
+,,,,,,,,,module_similarity_edge,Lysosome / autophagy,Oxidative / ER stress,4.0,0.0144927536231884,best neighbor,,,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1-3p,DDX60,,,,predicted,1.5,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,IRF1,,,,predicted,5.5,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,MTMR3,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,NAGK,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,CBL,,,,predicted,5.5,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,RAB6B,,,,predicted,5.5,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,NAGK,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,LAMP1,,,,predicted,1.5,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1307-3p,IRF1,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,RAB6B,,,,predicted,4.6,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,DDX60,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,NAGK,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-199a-3p,CBL,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-28-3p,CBL,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-31-5p,RAB6B,,,,predicted,2.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,MTMR3,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,STK4,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,ZBTB16,,,,predicted,1.2,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,CBL,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,SLC22A8,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,STK4,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,LAMP1,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,IRF1,,,,predicted,1.8,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,LAMP1,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,MTMR3,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,STK4,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,SYNPO2,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,NPM1,,,,predicted,1.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,CBL,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,IRF1,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,MTMR3,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,NHEJ1,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,RAB6B,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-628-3p,STK4,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-628-3p,SYNPO2,,,,predicted,3.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-93-3p,NPM1,,,,predicted,1.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-99a-5p,MTMR3,,,,predicted,8.0,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,7.829978359349485,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1-3p,Vascular activation / adhesion,,,,mirna_footprint,6.138780746851755,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1-3p,Interferon / JAK-STAT,,,,mirna_footprint,5.2632849004956626,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1-3p,Complement / innate immune,,,,mirna_footprint,5.0530314040461235,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,4.989827715706671,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,Lysosome / autophagy,,,,mirna_footprint,3.021974776377688,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,Interferon / JAK-STAT,,,,mirna_footprint,3.006774039707695,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-106b-5p,Complement / innate immune,,,,mirna_footprint,2.8295432126475495,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,4.287313981577177,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,Astrocyte inflammatory reactivity,,,,mirna_footprint,2.6704132439966606,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,Interferon / JAK-STAT,,,,mirna_footprint,1.957792762412064,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-122-5p,Vascular activation / adhesion,,,,mirna_footprint,1.4257900166922268,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1307-3p,Interferon / JAK-STAT,,,,mirna_footprint,2.5188077219606795,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-1307-3p,Astrocyte inflammatory reactivity,,,,mirna_footprint,2.089316891123448,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,Vascular activation / adhesion,,,,mirna_footprint,5.149611767018204,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,3.8315325999664376,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,Myelination / axon-glia support,,,,mirna_footprint,2.6074543711039126,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-142-5p,Lysosome / autophagy,,,,mirna_footprint,2.120034116554787,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-183-5p,Astrocyte inflammatory reactivity,,,,mirna_footprint,2.7147228648472703,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-183-5p,Vascular activation / adhesion,,,,mirna_footprint,2.500119922798734,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-183-5p,Complement / innate immune,,,,mirna_footprint,1.4865987166785828,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-199a-3p,Vascular activation / adhesion,,,,mirna_footprint,2.9128966607492077,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-199a-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,2.691304185405536,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-199a-3p,Astrocyte inflammatory reactivity,,,,mirna_footprint,2.5185979521676662,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-199a-3p,Oxidative / ER stress,,,,mirna_footprint,2.380107152341324,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-28-3p,Myelination / axon-glia support,,,,mirna_footprint,3.873141435466884,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-30e-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,3.643687704686001,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-30e-3p,Complement / innate immune,,,,mirna_footprint,1.3431519346369822,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-31-5p,Vascular activation / adhesion,,,,mirna_footprint,3.0255147072033983,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-31-5p,Endosomal trafficking,,,,mirna_footprint,2.473413769666621,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-31-5p,Oxidative / ER stress,,,,mirna_footprint,1.974147581990659,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-31-5p,Myelination / axon-glia support,,,,mirna_footprint,1.644231440682855,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,Complement / innate immune,,,,mirna_footprint,4.3564817524595885,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,3.64172581530838,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,Interferon / JAK-STAT,,,,mirna_footprint,2.607515967542236,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-324-5p,RNA metabolism / stress granules,,,,mirna_footprint,1.998062368829398,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,Vascular activation / adhesion,,,,mirna_footprint,3.6182109719873585,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,Endosomal trafficking,,,,mirna_footprint,2.6862598263755326,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-326,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,1.7320835707171631,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-328-3p,Vascular activation / adhesion,,,,mirna_footprint,3.0061562250212974,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,Endosomal trafficking,,,,mirna_footprint,2.149783280212866,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,1.825779336834984,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,Astrocyte inflammatory reactivity,,,,mirna_footprint,1.4741492706484491,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-342-3p,Myelination / axon-glia support,,,,mirna_footprint,1.337375024467669,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,4.997047541528108,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,Complement / innate immune,,,,mirna_footprint,4.3553239504161265,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,Myelination / axon-glia support,,,,mirna_footprint,1.884318220106622,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-421,Vascular activation / adhesion,,,,mirna_footprint,1.8229722634256404,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,Astrocyte inflammatory reactivity,,,,mirna_footprint,4.664917409765541,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,Interferon / JAK-STAT,,,,mirna_footprint,3.250461647338862,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,Vascular activation / adhesion,,,,mirna_footprint,2.872665261463544,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-4492,Myelination / axon-glia support,,,,mirna_footprint,1.3246674908962113,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-628-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,2.061189905033374,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-628-3p,Complement / innate immune,,,,mirna_footprint,1.352455144095936,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-93-3p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,2.311798068609193,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-93-3p,Complement / innate immune,,,,mirna_footprint,1.6675360831173789,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-93-3p,Interferon / JAK-STAT,,,,mirna_footprint,1.5893403812742477,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-93-3p,Vascular activation / adhesion,,,,mirna_footprint,1.4036895513818697,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-99a-5p,Vascular activation / adhesion,,,,mirna_footprint,2.213705169898796,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-99a-5p,Lysosome / autophagy,,,,mirna_footprint,1.6322357874219409,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-99a-5p,Astrocyte inflammatory reactivity,,,,mirna_footprint,1.4407781787427996,,,,,
+,,,,,,,,,panel_a_edge,hsa-miR-99a-5p,Oligodendrocyte stress / proteostasis,,,,mirna_footprint,1.3208624503619426,,,,,
+,,,,,,,,,panel_a_edge,CBL,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,DDX60,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,IRF1,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,LAMP1,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,MTMR3,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,NHEJ1,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,ZBTB16,Astrocyte inflammatory reactivity,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,IRF1,Complement / innate immune,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,NPM1,Complement / innate immune,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,DDX60,Interferon / JAK-STAT,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,IRF1,Interferon / JAK-STAT,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,NPM1,Interferon / JAK-STAT,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,CBL,Vascular activation / adhesion,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,IRF1,Vascular activation / adhesion,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,STK4,Vascular activation / adhesion,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,ZBTB16,Vascular activation / adhesion,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,MTMR3,Lysosome / autophagy,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,CBL,Endosomal trafficking,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,LAMP1,Oligodendrocyte stress / proteostasis,,,,direct,3.0,,,,,
+,,,,,,,,,panel_a_edge,Antigen presentation / MHC-II,Vascular | MHC-II endothelial,,,,direct,10.288362143404514,,,,,
+,,,,,,,,,panel_a_edge,Antigen presentation / MHC-II,Oligodendrocyte | Disease-associated,,,,direct,4.636633452499517,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte inflammatory reactivity,Vascular | MHC-II endothelial,,,,direct,7.396205759092249,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte inflammatory reactivity,Astrocyte | Complement / inflammatory,,,,direct,4.320490258539929,,,,,
+,,,,,,,,,panel_a_edge,Complement / innate immune,Astrocyte | Complement / inflammatory,,,,direct,4.499189838014661,,,,,
+,,,,,,,,,panel_a_edge,Complement / innate immune,Astrocyte | Interferon,,,,direct,4.4252166080938515,,,,,
+,,,,,,,,,panel_a_edge,Endosomal trafficking,Oligodendrocyte | Disease-associated,,,,direct,2.89689011359874,,,,,
+,,,,,,,,,panel_a_edge,Endosomal trafficking,Astrocyte | Complement / inflammatory,,,,direct,2.804716459294181,,,,,
+,,,,,,,,,panel_a_edge,Interferon / JAK-STAT,Astrocyte | Interferon,,,,direct,12.476670663599338,,,,,
+,,,,,,,,,panel_a_edge,Interferon / JAK-STAT,Vascular | MHC-II endothelial,,,,direct,10.288362143404514,,,,,
+,,,,,,,,,panel_a_edge,Lysosome / autophagy,Astrocyte | Reactive,,,,direct,3.822097345865125,,,,,
+,,,,,,,,,panel_a_edge,Myelination / axon-glia support,Oligodendrocyte | Mature / myelinating,,,,loss_axis,7.31538239563267,,,,,
+,,,,,,,,,panel_a_edge,Myelination / axon-glia support,Astrocyte | Reactive,,,,loss_axis,4.0547584517531075,,,,,
+,,,,,,,,,panel_a_edge,Oligodendrocyte stress / proteostasis,OPC | Cycling,,,,direct,6.122367343101092,,,,,
+,,,,,,,,,panel_a_edge,Oligodendrocyte stress / proteostasis,Vascular | MHC-II endothelial,,,,direct,4.209986441159485,,,,,
+,,,,,,,,,panel_a_edge,Oxidative / ER stress,Astrocyte | Stress,,,,direct,3.896458017598796,,,,,
+,,,,,,,,,panel_a_edge,RNA metabolism / stress granules,Astrocyte | Stress,,,,direct,3.633362516930528,,,,,
+,,,,,,,,,panel_a_edge,Vascular activation / adhesion,Vascular | MHC-II endothelial,,,,direct,9.072365259755724,,,,,
+,,,,,,,,,panel_a_edge,Vascular activation / adhesion,Vascular | Arterial endothelial,,,,direct,6.029918710886888,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte | Reactive,"Inflammation /
+gliosis",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte | Complement / inflammatory,"Inflammation /
+gliosis",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte | Interferon,"Inflammation /
+gliosis",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Astrocyte | Stress,"Proteostatic /
+cell stress",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,OPC | Cycling,"Proteostatic /
+cell stress",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Oligodendrocyte | Disease-associated,"Proteostatic /
+cell stress",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Oligodendrocyte | Mature / myelinating,"Myelin-axon
+support loss",,,,loss_axis,2.0,,,,,
+,,,,,,,,,panel_a_edge,Vascular | Arterial endothelial,"Vascular / BBB
+activation",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,Vascular | MHC-II endothelial,"Vascular / BBB
+activation",,,,direct,2.0,,,,,
+,,,,,,,,,panel_a_edge,"Inflammation /
+gliosis",EV cargo survival biomarker,,,,biomarker,2.4,,,,,
+,,,,,,,,,panel_a_edge,"Proteostatic /
+cell stress",EV cargo survival biomarker,,,,biomarker,2.4,,,,,
+,,,,,,,,,panel_a_edge,"Vascular / BBB
+activation",EV cargo survival biomarker,,,,biomarker,2.4,,,,,
+,,,,,,,,,panel_a_edge,"Myelin-axon
+support loss",EV cargo survival biomarker,,,,loss_axis,2.4,,,,,
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,2.0,2.0,0.1176470588235294
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,4.0,4.0,0.2352941176470588
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,5.0,5.0,0.2941176470588235
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,3.0,3.0,0.1764705882352941
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,1.0,1.0,0.125
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,6.0,6.0,0.75
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,4.0,4.0,0.2857142857142857
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,1.0,1.0,0.5
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,2.0,2.0,1.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,NPM1,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,CBL,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,NHEJ1,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,MTMR3,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,NAGK,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,ZBTB16,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,RAB6B,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,SLC22A8,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,IRF1,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,DDX60,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,STK4,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,NBPF1,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,LAMP1,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,KIAA0825,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,NRXN3,mRNA,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,SYNPO2,mRNA,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,2.0,2.0,0.1176470588235294
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,3.0,3.0,0.1764705882352941
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,4.0,4.0,0.2352941176470588
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,2.0,2.0,0.1176470588235294
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,5.0,5.0,0.2941176470588235
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,1.0,1.0,0.0588235294117647
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,2.0,2.0,0.1176470588235294
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,3.0,3.0,0.1764705882352941
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,2.0,2.0,0.2857142857142857
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,1.0,1.0,0.1428571428571428
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,1.0,1.0,0.1428571428571428
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,1.0,1.0,0.125
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,1.0,1.0,0.125
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,7.0,7.0,0.875
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,2.0,2.0,0.25
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,3.0,3.0,0.375
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,3.0,3.0,0.375
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,7.0,7.0,0.5
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,8.0,8.0,0.5714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,2.0,2.0,0.1428571428571428
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,1.0,1.0,0.0714285714285714
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,4.0,4.0,0.2857142857142857
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,6.0,6.0,0.4285714285714285
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,6.0,6.0,0.4285714285714285
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,2.0,2.0,0.1428571428571428
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,6.0,6.0,0.4285714285714285
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,2.0,2.0,0.1428571428571428
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,4.0,4.0,0.2857142857142857
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,5.0,5.0,0.3571428571428571
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,2.0,2.0,1.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,1.0,1.0,0.5
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,1.0,1.0,0.5
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,2.0,2.0,1.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,1.0,1.0,0.5
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,2.0,2.0,1.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,1.0,1.0,0.5
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,1.0,1.0,0.5
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,1.0,1.0,0.5
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,2.0,2.0,1.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,2.0,2.0,0.6666666666666666
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,1.0,1.0,0.3333333333333333
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,2.0,2.0,0.3333333333333333
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,2.0,2.0,0.3333333333333333
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,1.0,1.0,0.1666666666666666
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,2.0,2.0,0.1818181818181818
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,1.0,1.0,0.0909090909090909
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,1.0,1.0,0.0909090909090909
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-93-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-122-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-4492,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-31-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-324-5p,miRNA footprint,1.0,1.0,1.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-328-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-421,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-199a-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-326,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-99a-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-28-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-30e-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-142-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-342-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-106b-5p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-1307-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-628-3p,miRNA footprint,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,hsa-miR-183-5p,miRNA footprint,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,4.320490258539929,1.0,1.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,3.5984095344860516,1.0,1.0
+Astrocyte inflammatory reactivity,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,7.396205759092249,1.0,1.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,4.499189838014661,1.0,1.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Complement / innate immune,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,12.476670663599338,1.0,1.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Interferon / JAK-STAT,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,10.288362143404514,1.0,1.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,4.10621949956802,1.0,1.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,4.636633452499517,1.0,1.0
+Antigen presentation / MHC-II,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,10.288362143404514,1.0,1.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Vascular activation / adhesion,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,9.072365259755724,1.0,1.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,3.822097345865125,1.0,1.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Lysosome / autophagy,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,2.804716459294181,1.0,1.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,2.89689011359874,1.0,1.0
+Endosomal trafficking,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,6.122367343101092,1.0,1.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Oligodendrocyte stress / proteostasis,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,4.209986441159485,1.0,1.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,4.0547584517531075,1.0,1.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,7.31538239563267,1.0,1.0
+Myelination / axon-glia support,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,3.896458017598796,1.0,1.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+Oxidative / ER stress,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,Astrocyte,Lineage,3.633362516930528,1.0,1.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,OPC,Lineage,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,Oligodendrocyte,Lineage,0.0,0.0,0.0
+RNA metabolism / stress granules,,,,,,,,,evidence_matrix,,,,,,,,Vascular,Lineage,0.0,0.0,0.0

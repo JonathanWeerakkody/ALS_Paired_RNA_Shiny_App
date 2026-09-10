@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "title": "ALS Paired-RNA Manuscript Companion",
+  "context_of_use": "Public manuscript companion and source-data explorer; no individual clinical prediction or model refitting.",
+  "stages_file": "story_steps.csv",
+  "figure_catalog": "figure_catalog.csv",
+  "visualization_mode": "Fifteen purpose-built R data views integrating every main and Extended Data figure in manuscript reading order",
+  "publication_figures_redistributed": false,
+  "figure_counts": {"main_figures": 5, "extended_data_figures": 10, "guided_story_steps": 15},
+  "source_workbooks": ["Source_Data_Fig1.xlsx", "Source_Data_Fig2.xlsx", "Source_Data_Fig3.xlsx", "Source_Data_Fig4.xlsx", "Source_Data_Fig5.xlsx", "Source_Data_Extended_Data_Fig1.xlsx", "Source_Data_Extended_Data_Fig2.xlsx", "Source_Data_Extended_Data_Fig3.xlsx", "Source_Data_Extended_Data_Fig4.xlsx", "Source_Data_Extended_Data_Fig5.xlsx", "Source_Data_Extended_Data_Fig6.xlsx", "Source_Data_Extended_Data_Fig7.xlsx", "Source_Data_Extended_Data_Fig8.xlsx", "Source_Data_Extended_Data_Fig9.xlsx", "Source_Data_Extended_Data_Fig10.xlsx"],
+  "agent_contract": {
+    "stage_key": "stage_id",
+    "figure_key": "figure_id",
+    "plot_engine": "app.R",
+    "plots_generated_at_runtime": true,
+    "scientific_models_refitted_at_runtime": false,
+    "source_tables_downloadable": true,
+    "full_story_and_claim_trail_downloadable": true,
+    "complete_bundle_downloadable": true
+  }
+}

@@ -1,0 +1,7 @@
+omic,set,n
+miRNA,MOFA top 30,30
+miRNA,ALS versus control DE,44
+miRNA,long versus short survival DE,4
+mRNA,MOFA top 30,30
+mRNA,ALS versus control DE,540
+mRNA,long versus short survival DE,917

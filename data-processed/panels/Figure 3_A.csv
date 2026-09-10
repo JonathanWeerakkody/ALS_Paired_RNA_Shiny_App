@@ -1,0 +1,13 @@
+zone,n,panel,label,pct,n_sig,n_tot,color
+Human miRNome (not detected),756.0,A_venn,,,,,
+Plasma only,1552.0,A_venn,,,,,
+Shared (Plasma & GLAST+),296.0,A_venn,,,,,
+GLAST+ only,28.0,A_venn,,,,,
+F2H signature (within shared),19.0,A_venn,,,,,
+Human miRNome (total),2632.0,A_venn,,,,,
+Plasma detected (total),1848.0,A_venn,,,,,
+GLAST+ sEV (total),324.0,A_venn,,,,,
+,,B_lollipop,Human miRNome,7.104863221884498,187.0,2632.0,#b0b0b0
+,,B_lollipop,Plasma detected,10.119047619047619,187.0,1848.0,#6baed6
+,,B_lollipop,GLAST⁺ detected,25.308641975308642,82.0,324.0,#2ca25f
+,,B_lollipop,F2H signature,47.368421052631575,9.0,19.0,#e08214

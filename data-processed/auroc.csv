@@ -1,0 +1,15 @@
+"Cohort","Model","Horizon (months)","Participants, n","Deaths by horizon, n","Event-free at horizon, n","Baseline AUROC","Augmented AUROC","ΔAUROC","ΔAUROC 95% CI lower","ΔAUROC 95% CI upper","Event-free at horizon"
+"n248","ALSFRS slope + NfL",12,243,107,136,0.74,0.753,0.012,0.001,0.025,136
+"n248","ALSFRS slope + NfL",24,242,172,70,0.695,0.702,0.007,-0.006,0.019,70
+"n248","ALSFRS slope + NfL",36,241,196,45,0.768,0.775,0.007,-0.003,0.017,45
+"n248","ALSFRS slope + NfL",54,240,214,26,0.874,0.858,-0.016,-0.023,-0.008,26
+"n248","ALSFRS slope + Signature",12,248,111,137,0.731,0.727,-0.004,-0.017,0.009,137
+"n248","ALSFRS slope + Signature",24,247,177,70,0.694,0.73,0.036,0.017,0.057,70
+"n248","ALSFRS slope + Signature",36,246,201,45,0.763,0.788,0.025,0.007,0.044,45
+"n248","ALSFRS slope + Signature",54,245,219,26,0.87,0.922,0.052,0.032,0.071,26
+"n75","8 clinical + NfL",12,75,31,44,0.841,0.841,0,-0.012,0.011,44
+"n75","8 clinical + NfL",24,75,50,25,0.793,0.799,0.006,-0.007,0.019,25
+"n75","8 clinical + NfL",36,75,55,20,0.852,0.867,0.015,0,0.029,20
+"n75","8 clinical + Signature",12,75,31,44,0.841,0.851,0.009,-0.006,0.027,44
+"n75","8 clinical + Signature",24,75,50,25,0.793,0.828,0.035,0.009,0.064,25
+"n75","8 clinical + Signature",36,75,55,20,0.852,0.862,0.009,-0.011,0.032,20

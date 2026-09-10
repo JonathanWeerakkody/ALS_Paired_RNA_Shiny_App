@@ -1,0 +1,2 @@
+component_id,display_item,source_plot,plot_data,source_data,source_r_script,notes
+A_ranked_state_cargo_lollipop,Glial and vascular state programs associated with cargo mRNA score,components/A_ranked_state_cargo_lollipop/plot.png,components/A_ranked_state_cargo_lollipop/plot_data.csv,components/A_ranked_state_cargo_lollipop/source_data.csv,R/figures/F4/Extended/EX7C_association_summary.R,Aggregate cargo score; rho by state program and disease subtype; point size is -log10(BH-adjusted q).
