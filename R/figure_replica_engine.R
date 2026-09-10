@@ -4,7 +4,7 @@
 
 FIGURE_CATALOG <- read.csv("config/figure_catalog.csv", check.names = FALSE,
                            stringsAsFactors = FALSE)
-FIGURE_SOURCE_ROOT <- normalizePath("../../source_data", mustWork = TRUE)
+FIGURE_SOURCE_ROOT <- normalizePath("source_data", mustWork = TRUE)
 .panel_cache <- new.env(parent = emptyenv())
 
 as_panel_number <- function(x) suppressWarnings(as.numeric(unlist(x)))
