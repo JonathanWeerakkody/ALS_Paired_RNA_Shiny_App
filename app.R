@@ -251,6 +251,12 @@ ui <- fluidPage(
         p("The manuscript figures are dense, publication-edited composites. This app uses one responsive data view per checkpoint and follows the manuscript's argument in sequence, so readers can understand the evidence without reproducing the printed page layout in a browser."),
         h4("Reproducibility"),
         p("Every graph can be downloaded with its plotted data and source workbook. The complete bundle includes all 15 source workbooks, processed evidence tables, metadata and R code."),
+        h4("Links"),
+        p(tags$a(href = "https://github.com/JonathanWeerakkody/ALS_Paired_RNA_Shiny_App",
+                 target = "_blank", "View the source code and released data on GitHub"),
+          br(),
+          tags$a(href = "https://jonathanweerakkody.shinyapps.io/als-paired-rna/",
+                 target = "_blank", "Open this public Shiny app")),
         h4("Scope"),
         p("The app does not refit MOFA+, select a new signature or generate participant-level predictions."))))
 )

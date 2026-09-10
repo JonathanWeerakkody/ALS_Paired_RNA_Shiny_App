@@ -1,5 +1,9 @@
 # ALS Paired RNA Manuscript Companion
 
+Live companion app: [Open the public Shiny app](https://jonathanweerakkody.shinyapps.io/als-paired-rna/)
+
+Source code and released source data: [GitHub repository](https://github.com/JonathanWeerakkody/ALS_Paired_RNA_Shiny_App)
+
 This Shiny application guides readers through the manuscript's evidence chain
 using 15 purpose built, web native graphs generated from the released data.
 The graphs explain the analysis but do not imitate or redistribute the dense,
