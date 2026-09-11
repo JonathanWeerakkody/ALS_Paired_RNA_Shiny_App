@@ -1,5 +1,7 @@
 # ALS Paired RNA Manuscript Companion
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22700249.svg)](https://doi.org/10.5281/zenodo.22700249)
+
 Live companion app: [Open the public Shiny app](https://jonathanweerakkody.shinyapps.io/als-paired-rna/)
 
 Source code and released source data: [GitHub repository](https://github.com/JonathanWeerakkody/ALS_Paired_RNA_Shiny_App)
